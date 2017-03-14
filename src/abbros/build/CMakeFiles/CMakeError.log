@@ -1,0 +1,149 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec815209692/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec815209692.dir/build.make CMakeFiles/cmTryCompileExec815209692.dir/build
+make[1]: se ingresa al directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec815209692.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec815209692.dir/CheckSymbolExists.c.o   -c /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec815209692
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec815209692.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec815209692.dir/CheckSymbolExists.c.o  -o cmTryCompileExec815209692 -rdynamic 
+CMakeFiles/cmTryCompileExec815209692.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x16): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec815209692] Error 1
+make: *** [cmTryCompileExec815209692/fast] Error 2
+
+File /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec719986734/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec719986734.dir/build.make CMakeFiles/cmTryCompileExec719986734.dir/build
+make[1]: se ingresa al directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec719986734.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec719986734.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec719986734
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec719986734.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec719986734.dir/CheckFunctionExists.c.o  -o cmTryCompileExec719986734 -rdynamic -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+make[1]: *** [cmTryCompileExec719986734] Error 1
+make: *** [cmTryCompileExec719986734/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3519182855/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3519182855.dir/build.make CMakeFiles/cmTryCompileExec3519182855.dir/build
+make[1]: se ingresa al directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3519182855.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3519182855.dir/CheckSymbolExists.cxx.o -c /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: se sale del directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+make[1]: *** [CMakeFiles/cmTryCompileExec3519182855.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec3519182855/fast] Error 2
+
+File /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec148052470/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec148052470.dir/build.make CMakeFiles/cmTryCompileExec148052470.dir/build
+make[1]: se ingresa al directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec148052470.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec148052470.dir/CheckSymbolExists.cxx.o -c /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: se sale del directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+make[1]: *** [CMakeFiles/cmTryCompileExec148052470.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec148052470/fast] Error 2
+
+File /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1043323102/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1043323102.dir/build.make CMakeFiles/cmTryCompileExec1043323102.dir/build
+make[1]: se ingresa al directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1043323102.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1043323102.dir/CheckSymbolExists.cxx.o -c /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: se sale del directorio «/home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp»
+make[1]: *** [CMakeFiles/cmTryCompileExec1043323102.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec1043323102/fast] Error 2
+
+File /home/alejo/catkin_ws/src/abbros/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

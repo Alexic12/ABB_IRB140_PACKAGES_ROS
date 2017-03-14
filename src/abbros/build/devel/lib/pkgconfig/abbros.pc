@@ -1,0 +1,8 @@
+prefix=/home/alejo/catkin_ws/src/abbros/build/devel
+
+Name: abbros
+Description: Description of abbros
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/alejo/catkin_ws/src/abbros/build/devel/lib 
+Requires: 

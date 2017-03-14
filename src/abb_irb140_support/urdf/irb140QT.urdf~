@@ -105,14 +105,14 @@
   </link>
   <link name="link_6">
     <visual>
-      <origin rpy="0 0 0" xyz="-2.02 0 -2.8"/>
+      <origin rpy="0 0 0" xyz="-2.022 0 -2.8"/>
       <geometry>
         <mesh filename="package://abb_irb140_support/meshes/irb140/visual/link_6.stl"/>
       </geometry>
       <material name="abb_orange"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="-2.02 0 -2.8"/>
+      <origin rpy="0 0 0" xyz="-2.022 0 -2.8"/>
       <geometry>
         <mesh filename="package://abb_irb140_support/meshes/irb140/collision/link_6.stl"/>
       </geometry>
