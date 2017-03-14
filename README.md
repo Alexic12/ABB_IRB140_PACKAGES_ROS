@@ -1,5 +1,11 @@
 # ABB_IRB140_PACKAGES_ROS
 
+This packages are a result of an extensive robotics research work from Universidad EIA, Antioquia, Colombia.
+
+This Repository include 4 packages for various ways of interfacing with an ABB IRB140 Robotic Manipulator.
+
+The packages are meant to be installed in the src folder inside a catkin workspace linked with ROS.
+
 *ABB_IRB140_SUPPORT:
 
 ROS-Industrial and MoveIT support for the ABB IRB140.
