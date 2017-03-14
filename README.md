@@ -49,7 +49,7 @@ the standard .URDF included in ABB_IRB140_SUPPORT.
 NOTE: You MUST have catkin_ws folder already configured as your catkin workspace.
 
 Download either the catkin_ws folder or the .zip file, and paste the catkin_ws folder inside the home directory,
-the file manmager will ask you to combine the two folders, click combine and accept everything so the packages and other important files are copied in the right directories inside your catkin workspace.
+the file manager will ask you to combine the two folders, click combine and accept everything so the packages and other important files are copied in the right directories inside your catkin workspace.
 
 Compile your catkin workspace again to make sure everything was copied correctly.
 
