@@ -43,3 +43,13 @@ This package contains an Open-Source graphical user interface for controlling th
 This package has its own .URDF for interfacing with Rviz, due to OpenGL Coordinate system conflicts with 
 the standard .URDF included in ABB_IRB140_SUPPORT.
 
+# INSTALLATION
+
+
+NOTE: You MUST have catkin_ws folder already configured as your catkin workspace.
+
+Download either the catkin_ws folder or the .zip file, and paste the catkin_ws folder inside the home directory,
+the file manmager will ask you to combine the two folders, click combine and accept everything so the packages and other important files are copied in the right directories inside your catkin workspace.
+
+
+
