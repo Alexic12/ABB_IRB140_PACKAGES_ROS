@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: abbros
+Description: Description of abbros
+Version: 0.1.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/alejo/catkin_ws/src/abbros/build/devel/setup.sh

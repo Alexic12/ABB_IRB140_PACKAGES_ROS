@@ -1,0 +1,8 @@
+prefix=/home/dynamotech/catkin_ws/build/abbros/devel
+
+Name: abbros
+Description: Description of abbros
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/dynamotech/catkin_ws/build/abbros/devel/lib 
+Requires: 

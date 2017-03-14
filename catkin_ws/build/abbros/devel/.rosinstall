@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dynamotech/catkin_ws/build/abbros/devel/setup.sh

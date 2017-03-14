@@ -1,0 +1,5 @@
+<launch>
+        <param name="robot_description" command="cat $(find abb_irb140_support)/urdf/irb140QT.urdf" />
+
+        
+</launch>
